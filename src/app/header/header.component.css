@@ -1,0 +1,18 @@
+* {
+    color: var(--biscuit-color);
+    font-family: var(--primary-font);
+}
+
+a {
+    padding: 0em 0.3em 0em 0.3em;
+}
+
+a:active, a:hover {
+    color: var(--yellow-color);
+}
+
+@media (min-width: 768px) {
+    * {
+        font-size: var(--size-font-super);
+    }
+}

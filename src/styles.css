@@ -1,0 +1,81 @@
+@import '~fullpage.js/dist/fullpage.min.css';
+
+:root {
+    --text-color: #333;
+    --biscuit-color: #fffcfa;
+    --purple-color: #8558c8;
+    --yellow-color: #FAF32F;
+    --primary-font: 'Rancho', cursive;
+    --text-font: 'Gudea', sans-serif;
+    --size-font-min: 18px;
+    --size-font-max: 20px;
+    --size-font-super: 24px;
+    --size-title: 26px;
+  }
+  
+* {
+  color: var(--biscuit-color);
+  font-family: var(--text-font);
+}
+
+*::selection {
+  background-size: 80% 2em;
+  background: var(--purple-color);
+  color: var(--biscuit-color);
+}
+
+p::selection, span::selection, h4::selection, h6::selection {
+  background-size: 80% 2em;
+  background: var(--yellow-color);
+  color: var(--biscuit-color);
+}
+
+header {
+  position: fixed;
+  background-color: transparent;
+  z-index: 1;
+}
+
+h6 {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+  font-size: var(--size-font-max);
+}
+
+h4 {
+  font-size: var(--size-title);
+  font-weight: bold;
+}
+
+h5, h4 {
+  font-family: var(--primary-font);
+}
+
+a, h2 {
+  font-family: var(--primary-font);
+  color: var(--biscuit-color);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+h6 {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.center-x {
+  position: absolute;
+  width: max-content;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.center-y {
+  position: absolute;
+  width: max-content;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

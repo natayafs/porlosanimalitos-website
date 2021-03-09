@@ -1,18 +1,8 @@
 h1 {
     color: var(--yellow-color);
     font-size: 60px;
-    font-family: var(--primary-font);
+    font-family: var(--secondary-font);
     line-height: 0.7em;
-}
-
-.title {
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    width: 100%;
-    -ms-transform: translate(-50%, -90%);
-    transform: translate(-50%, -90%);
-    z-index: 1;
 }
 
 h5 {
@@ -26,19 +16,30 @@ h5 {
     }
 }
 
+.divider {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    top: 102%;
+    -ms-transform: translateY(-102%);
+    transform: translateY(-102%);
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10vmin 0vmin;
+    padding: 10vmin;
     overflow: hidden;
 }
+
 .container .card {
     flex: 1;
     transition: all 1s ease-in-out;
-    height: 78vmin;
+    height: 70vmin;
     position: relative;
 }
+
 .container .card .card__head {
     color: var(--text-color);
     background: var(--yellow-color);
@@ -54,12 +55,15 @@ h5 {
     font-size: 1em;
     white-space: nowrap;
 }
+
 .container .card:hover {
     flex-grow: 10;
 }
+
 .container .card:hover img {
     filter: grayscale(0);
 }
+
 .container .card:hover .card__head {
     text-align: center;
     top: calc(100% - 2em);
@@ -68,6 +72,7 @@ h5 {
     font-size: 2em;
     transform: rotate(0deg) skew(-5deg);
 }
+
 .container .card img {
     width: 100%;
     height: 96%;

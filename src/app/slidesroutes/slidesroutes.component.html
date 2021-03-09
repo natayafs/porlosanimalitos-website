@@ -2,11 +2,20 @@
 <div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
     <div class="section active">
         <app-welcome></app-welcome>
-      </div>
-      <div class="section section-padding">
-      </div>
-      <div class="section section-padding">
     </div>
-    <div class="section section-padding">
+    <div class="section">
+        <app-about></app-about>
     </div>
-  </div>
+    <div class="section">
+      <app-adopciones></app-adopciones>
+    </div>
+    <div class="section">
+      <app-castraciones></app-castraciones>
+    </div>
+    <div class="section">
+      <app-plansanitario></app-plansanitario>
+    </div>
+    <div class="section">
+      <app-contacto></app-contacto>
+    </div>
+</div>

@@ -10,11 +10,11 @@
     --size-font-min: 18px;
     --size-font-max: 20px;
     --size-font-super: 24px;
-    --size-title: 26px;
+    --size-title: 32px;
   }
-  
+
 * {
-  color: var(--biscuit-color);
+  color: var(--text-color);
   font-family: var(--text-font);
 }
 

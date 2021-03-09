@@ -8,6 +8,11 @@ import { HeaderComponent } from './header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { SlidesroutesComponent } from './slidesroutes/slidesroutes.component';
+import { AboutComponent } from './about/about.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { AdopcionesComponent } from './adopciones/adopciones.component';
+import { CastracionesComponent } from './castraciones/castraciones.component';
+import { PlansanitarioComponent } from './plansanitario/plansanitario.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +21,11 @@ import { SlidesroutesComponent } from './slidesroutes/slidesroutes.component';
     HeaderComponent,
     PagenotfoundComponent,
     SlidesroutesComponent,
+    AboutComponent,
+    ContactoComponent,
+    AdopcionesComponent,
+    CastracionesComponent,
+    PlansanitarioComponent,
   ],
   imports: [
     BrowserModule,

@@ -20,6 +20,6 @@ a:active, a:hover {
 
 @media (min-width: 768px) {
     * {
-        font-size: var(--size-title);
+        font-size: var(--size-header);
     }
 }

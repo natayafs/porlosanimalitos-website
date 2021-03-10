@@ -42,15 +42,19 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 7, vars: 0, consts: [[1, "content", "center-x"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 9, vars: 0, consts: [[1, "content"], [1, "row"], [1, "col-sm-12"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Sobre nosotros");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Sobre nosotros");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Somos un peque\u00F1o grupo de activistas/rescatistas que trabajan para proteger y promover los derechos de los animales urbanos. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " La tenencia responsable como estandarte, educaci\u00F3n y empat\u00EDa. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " Somos un peque\u00F1o grupo de activistas/rescatistas que trabajan para proteger y promover los derechos de los animales urbanos. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " La tenencia responsable como estandarte, educaci\u00F3n y empat\u00EDa. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Fib3V0L2Fib3V0LmNvbXBvbmVudC5jc3MifQ== */"] });
@@ -85,15 +89,33 @@ class AdopcionesComponent {
     }
 }
 AdopcionesComponent.ɵfac = function AdopcionesComponent_Factory(t) { return new (t || AdopcionesComponent)(); };
-AdopcionesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AdopcionesComponent, selectors: [["app-adopciones"]], decls: 7, vars: 0, consts: [[1, "content", "center-x"]], template: function AdopcionesComponent_Template(rf, ctx) { if (rf & 1) {
+AdopcionesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AdopcionesComponent, selectors: [["app-adopciones"]], decls: 23, vars: 0, consts: [[1, "content"], [1, "row"], [1, "col-sm-6"], ["src", "../../assets/photos/1.png", 1, "img-card"]], template: function AdopcionesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Adopciones");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, iure?");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " Natus eveniet sint alias quod provident quasi facere corporis sed, commodi reiciendis atque omnis assumenda impedit sunt beatae repellat. Ratione? ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Adopciones");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " A dem\u00E1s de amor nuestros animales necesitan cuidado y protecci\u00F3n, algunos tips para ello son:");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Participalmente informarse sobre los cuidados que requiere cada animal al momento de adquirirlo, preferentemente con un profesional veterinario.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Realizar visitas peri\u00F3dicas a la veterinaria para corroborar que todo este bien.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " Darles agua limpia y fresca todos los d\u00EDas, en especial los calurosos.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " Darle alimento acorde a su especie y edad.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " No dejarlos sueltos en la vida p\u00FAblica.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, " Realizar paseos diarios o semanales siempre con correa o pechera.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " Y lo m\u00E1s inportante: la castraci\u00F3n a los 6 meses de edad en ambos sexos.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Fkb3BjaW9uZXMvYWRvcGNpb25lcy5jb21wb25lbnQuY3NzIn0= */"] });
@@ -305,15 +327,20 @@ class CastracionesComponent {
     }
 }
 CastracionesComponent.ɵfac = function CastracionesComponent_Factory(t) { return new (t || CastracionesComponent)(); };
-CastracionesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CastracionesComponent, selectors: [["app-castraciones"]], decls: 7, vars: 0, consts: [[1, "content", "center-x"]], template: function CastracionesComponent_Template(rf, ctx) { if (rf & 1) {
+CastracionesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CastracionesComponent, selectors: [["app-castraciones"]], decls: 10, vars: 0, consts: [[1, "content"], [1, "row"], [1, "col-sm-6"], ["src", "../../assets/photos/2.png", 1, "img-card"]], template: function CastracionesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Castraciones");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, iure?");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " Natus eveniet sint alias quod provident quasi facere corporis sed, commodi reiciendis atque omnis assumenda impedit sunt beatae repellat. Ratione? ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Castraciones");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nam rerum odit ducimus sed quae ex voluptas repudiandae eligendi praesentium");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " quibusdam tempora consequuntur ullam animi, molestiae quisquam. Illo, alias natus. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Nhc3RyYWNpb25lcy9jYXN0cmFjaW9uZXMuY29tcG9uZW50LmNzcyJ9 */"] });
@@ -340,6 +367,8 @@ CastracionesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵde
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactoComponent", function() { return ContactoComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _fullpage_angular_fullpage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fullpage/angular-fullpage */ "./node_modules/@fullpage/angular-fullpage/__ivy_ngcc__/fesm2015/fullpage-angular-fullpage.js");
+
 
 
 class ContactoComponent {
@@ -348,18 +377,30 @@ class ContactoComponent {
     }
 }
 ContactoComponent.ɵfac = function ContactoComponent_Factory(t) { return new (t || ContactoComponent)(); };
-ContactoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactoComponent, selectors: [["app-contacto"]], decls: 7, vars: 0, consts: [[1, "content", "center-x"]], template: function ContactoComponent_Template(rf, ctx) { if (rf & 1) {
+ContactoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactoComponent, selectors: [["app-contacto"]], decls: 14, vars: 0, consts: [[1, "content"], [1, "row"], [1, "col-sm-12"], ["href", "https://cafecito.app/porlosanimalitos", "rel", "noopener", "target", "_blank"], ["srcset", "\n              https://cdn.cafecito.app/imgs/buttons/button_1.png       1x,\n              https://cdn.cafecito.app/imgs/buttons/button_1_2x.png    2x,\n              https://cdn.cafecito.app/imgs/buttons/button_1_3.75x.png 3.75x\n            ", "src", "https://cdn.cafecito.app/imgs/buttons/button_1.png", "alt", "Invitame un caf\u00E9 en cafecito.app"], ["href", "https://www.instagram.com/porlosanimalitos/"]], template: function ContactoComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "\u00A1Colabor\u00E1 con nosotros!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "\u00A1Colabor\u00E1 con nosotros!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, iure?");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " Natus eveniet sint alias quod provident quasi facere corporis sed, commodi reiciendis atque omnis assumenda impedit sunt beatae repellat. Ratione? ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, iure?");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Natus eveniet sint alias quod provident quasi facere corporis sed, commodi reiciendis atque omnis assumenda impedit sunt beatae repellat. Ratione? ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "img", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3RvL2NvbnRhY3RvLmNvbXBvbmVudC5jc3MifQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_fullpage_angular_fullpage__WEBPACK_IMPORTED_MODULE_1__["ɵb"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3RvL2NvbnRhY3RvLmNvbXBvbmVudC5jc3MifQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ContactoComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -421,7 +462,7 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_fullpage_angular_fullpage__WEBPACK_IMPORTED_MODULE_1__["ɵb"]], styles: ["*[_ngcontent-%COMP%] {\n    color: var(--biscuit-color);\n    font-family: var(--primary-font);\n}\n\nheader[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 1em;\n  padding: 0.5em;\n  background-color: var(--purple-color);\n}\n\na[_ngcontent-%COMP%] {\n    padding: 0em 0.3em 0em 0.3em;\n}\n\na[_ngcontent-%COMP%]:active, a[_ngcontent-%COMP%]:hover {\n    color: var(--yellow-color);\n}\n\n@media (min-width: 768px) {\n    *[_ngcontent-%COMP%] {\n        font-size: var(--size-title);\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksMkJBQTJCO0lBQzNCLGdDQUFnQztBQUNwQzs7QUFFQTtFQUNFLFdBQVc7RUFDWCxXQUFXO0VBQ1gsY0FBYztFQUNkLHFDQUFxQztBQUN2Qzs7QUFFQTtJQUNJLDRCQUE0QjtBQUNoQzs7QUFFQTtJQUNJLDBCQUEwQjtBQUM5Qjs7QUFFQTtJQUNJO1FBQ0ksNEJBQTRCO0lBQ2hDO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqIHtcbiAgICBjb2xvcjogdmFyKC0tYmlzY3VpdC1jb2xvcik7XG4gICAgZm9udC1mYW1pbHk6IHZhcigtLXByaW1hcnktZm9udCk7XG59XG5cbmhlYWRlciB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDFlbTtcbiAgcGFkZGluZzogMC41ZW07XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLXB1cnBsZS1jb2xvcik7XG59XG5cbmEge1xuICAgIHBhZGRpbmc6IDBlbSAwLjNlbSAwZW0gMC4zZW07XG59XG5cbmE6YWN0aXZlLCBhOmhvdmVyIHtcbiAgICBjb2xvcjogdmFyKC0teWVsbG93LWNvbG9yKTtcbn1cblxuQG1lZGlhIChtaW4td2lkdGg6IDc2OHB4KSB7XG4gICAgKiB7XG4gICAgICAgIGZvbnQtc2l6ZTogdmFyKC0tc2l6ZS10aXRsZSk7XG4gICAgfVxufVxuIl19 */"] });
+    } }, directives: [_fullpage_angular_fullpage__WEBPACK_IMPORTED_MODULE_1__["ɵb"]], styles: ["*[_ngcontent-%COMP%] {\n    color: var(--biscuit-color);\n    font-family: var(--primary-font);\n}\n\nheader[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 2.5em;\n  padding: 0.5em;\n  background-color: var(--purple-color);\n}\n\na[_ngcontent-%COMP%] {\n    padding: 0em 0.3em 0em 0.3em;\n}\n\na[_ngcontent-%COMP%]:active, a[_ngcontent-%COMP%]:hover {\n    color: var(--yellow-color);\n}\n\n@media (min-width: 768px) {\n    *[_ngcontent-%COMP%] {\n        font-size: var(--size-header);\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksMkJBQTJCO0lBQzNCLGdDQUFnQztBQUNwQzs7QUFFQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0VBQ2IsY0FBYztFQUNkLHFDQUFxQztBQUN2Qzs7QUFFQTtJQUNJLDRCQUE0QjtBQUNoQzs7QUFFQTtJQUNJLDBCQUEwQjtBQUM5Qjs7QUFFQTtJQUNJO1FBQ0ksNkJBQTZCO0lBQ2pDO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqIHtcbiAgICBjb2xvcjogdmFyKC0tYmlzY3VpdC1jb2xvcik7XG4gICAgZm9udC1mYW1pbHk6IHZhcigtLXByaW1hcnktZm9udCk7XG59XG5cbmhlYWRlciB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDIuNWVtO1xuICBwYWRkaW5nOiAwLjVlbTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tcHVycGxlLWNvbG9yKTtcbn1cblxuYSB7XG4gICAgcGFkZGluZzogMGVtIDAuM2VtIDBlbSAwLjNlbTtcbn1cblxuYTphY3RpdmUsIGE6aG92ZXIge1xuICAgIGNvbG9yOiB2YXIoLS15ZWxsb3ctY29sb3IpO1xufVxuXG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgICAqIHtcbiAgICAgICAgZm9udC1zaXplOiB2YXIoLS1zaXplLWhlYWRlcik7XG4gICAgfVxufVxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HeaderComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -499,15 +540,28 @@ class PlansanitarioComponent {
     }
 }
 PlansanitarioComponent.ɵfac = function PlansanitarioComponent_Factory(t) { return new (t || PlansanitarioComponent)(); };
-PlansanitarioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PlansanitarioComponent, selectors: [["app-plansanitario"]], decls: 7, vars: 0, consts: [[1, "content", "center-x"]], template: function PlansanitarioComponent_Template(rf, ctx) { if (rf & 1) {
+PlansanitarioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PlansanitarioComponent, selectors: [["app-plansanitario"]], decls: 18, vars: 0, consts: [[1, "content"], [1, "row"], [1, "col-sm-6"], ["src", "../../assets/photos/3.png", 1, "img-card"]], template: function PlansanitarioComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Plan sanitario");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, iure?");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " Natus eveniet sint alias quod provident quasi facere corporis sed, commodi reiciendis atque omnis assumenda impedit sunt beatae repellat. Ratione? ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Plan sanitario");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " A dem\u00E1s de amor nuestros animales necesitan cuidado y protecci\u00F3n, algunos tips para ello son:");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Desparasitar a los perros y gatos desde los 20 d\u00EDas de vida, y luego peri\u00F3dicamente seg\u00FAn recomendaci\u00F3n veterinaria.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Realizar las vacunas pertinentes: quintuples o sextuples, a partir de los 45 d\u00EDas de vida con revacunacion anual.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " Triple felina a los gatos a partir de los 2 meses de edad con revacunacion anual y antirr\u00E1bica a partir de los 3 meses de edad, con revacunacion anual.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " Tambi\u00E9n es importante el uso de pipetas y collares repelentes para prevenir transmisiones de leishmaniasis u otras enfermedades.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " El maltrato animal no solo contempla penas sino adem\u00E1s multas. Establecidas en la ordenanza N 12. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BsYW5zYW5pdGFyaW8vcGxhbnNhbml0YXJpby5jb21wb25lbnQuY3NzIn0= */"] });
@@ -630,7 +684,7 @@ class WelcomeComponent {
     }
 }
 WelcomeComponent.ɵfac = function WelcomeComponent_Factory(t) { return new (t || WelcomeComponent)(); };
-WelcomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WelcomeComponent, selectors: [["app-welcome"]], decls: 20, vars: 0, consts: [[1, "container"], [1, "card"], ["src", "../../assets/photos/Photo15.jpg", 2, "border-radius", "20px 0px 0px 20px"], ["src", "../../assets/photos/Photo5.jpg"], ["src", "../../assets/photos/Photo6.jpg"], ["src", "../../assets/photos/Photo2.jpg"], ["src", "../../assets/photos/Photo4.jpg"], ["src", "../../assets/photos/Photo3.jpg"], ["src", "../../assets/photos/Photo11.jpg", 2, "border-radius", "0px 20px 20px 0px"], [1, "divider"], ["preserveAspectRatio", "none", "viewBox", "0 0 1200 120", "xmlns", "http://www.w3.org/2000/svg", 2, "fill", "#fffcfa", "width", "100%", "height", "45px", "transform", "rotate(180deg) scaleX(-1)"], ["d", "M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z", "opacity", ".25"], ["d", "M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z", "opacity", ".5"], ["d", "M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z"]], template: function WelcomeComponent_Template(rf, ctx) { if (rf & 1) {
+WelcomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WelcomeComponent, selectors: [["app-welcome"]], decls: 20, vars: 0, consts: [[1, "galeria"], [1, "card"], ["src", "../../assets/photos/Photo15.jpg", 2, "border-radius", "20px 0px 0px 20px"], ["src", "../../assets/photos/Photo5.jpg"], ["src", "../../assets/photos/Photo6.jpg"], ["src", "../../assets/photos/Photo2.jpg"], ["src", "../../assets/photos/Photo4.jpg"], ["src", "../../assets/photos/Photo3.jpg"], ["src", "../../assets/photos/Photo11.jpg", 2, "border-radius", "0px 20px 20px 0px"], [1, "divider"], ["preserveAspectRatio", "none", "viewBox", "0 0 1200 120", "xmlns", "http://www.w3.org/2000/svg", 2, "fill", "#fffcfa", "width", "100%", "height", "45px", "transform", "rotate(180deg) scaleX(-1)"], ["d", "M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z", "opacity", ".25"], ["d", "M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z", "opacity", ".5"], ["d", "M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z"]], template: function WelcomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
@@ -662,7 +716,7 @@ WelcomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "path", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["h1[_ngcontent-%COMP%] {\n    color: var(--yellow-color);\n    font-size: 60px;\n    font-family: var(--secondary-font);\n    line-height: 0.7em;\n}\n\nh5[_ngcontent-%COMP%] {\n    color: var(--biscuit-color);\n    font-family: var(--secondary-font);\n}\n\n@media screen and (min-width: 650px) {\n    h1[_ngcontent-%COMP%] {\n        font-size: 90px;\n    }\n}\n\n.divider[_ngcontent-%COMP%] {\n    position: absolute;\n    overflow: hidden;\n    width: 100%;\n    top: 102%;\n    transform: translateY(-102%);\n}\n\n.container[_ngcontent-%COMP%] {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 10vmin;\n    overflow: hidden;\n}\n\n.container[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n    flex: 1;\n    transition: all 1s ease-in-out;\n    height: 70vmin;\n    position: relative;\n}\n\n.container[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   .card__head[_ngcontent-%COMP%] {\n    color: var(--text-color);\n    background: var(--yellow-color);\n    padding: 0.5em;\n    transform: rotate(-90deg);\n    transform-origin: 0% 0%;\n    transition: all 0.5s ease-in-out;\n    min-width: 100%;\n    text-align: center;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    font-size: 1em;\n    white-space: nowrap;\n}\n\n.container[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]:hover {\n    flex-grow: 10;\n}\n\n.container[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]:hover   img[_ngcontent-%COMP%] {\n    filter: grayscale(0);\n}\n\n.container[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]:hover   .card__head[_ngcontent-%COMP%] {\n    text-align: center;\n    top: calc(100% - 2em);\n    color: var(--text-color);\n    background: var(--yellow-color);\n    font-size: 2em;\n    transform: rotate(0deg) skew(-5deg);\n}\n\n.container[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 100%;\n    height: 96%;\n    object-fit: cover;\n    transition: all 1s ease-in-out;\n    filter: grayscale(80%);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2VsY29tZS93ZWxjb21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSwwQkFBMEI7SUFDMUIsZUFBZTtJQUNmLGtDQUFrQztJQUNsQyxrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSwyQkFBMkI7SUFDM0Isa0NBQWtDO0FBQ3RDOztBQUVBO0lBQ0k7UUFDSSxlQUFlO0lBQ25CO0FBQ0o7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZ0JBQWdCO0lBQ2hCLFdBQVc7SUFDWCxTQUFTO0lBRVQsNEJBQTRCO0FBQ2hDOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHVCQUF1QjtJQUN2QixtQkFBbUI7SUFDbkIsZUFBZTtJQUNmLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLE9BQU87SUFDUCw4QkFBOEI7SUFDOUIsY0FBYztJQUNkLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLHdCQUF3QjtJQUN4QiwrQkFBK0I7SUFDL0IsY0FBYztJQUNkLHlCQUF5QjtJQUN6Qix1QkFBdUI7SUFDdkIsZ0NBQWdDO0lBQ2hDLGVBQWU7SUFDZixrQkFBa0I7SUFDbEIsa0JBQWtCO0lBQ2xCLFNBQVM7SUFDVCxPQUFPO0lBQ1AsY0FBYztJQUNkLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLGFBQWE7QUFDakI7O0FBRUE7SUFDSSxvQkFBb0I7QUFDeEI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLHdCQUF3QjtJQUN4QiwrQkFBK0I7SUFDL0IsY0FBYztJQUNkLG1DQUFtQztBQUN2Qzs7QUFFQTtJQUNJLFdBQVc7SUFDWCxXQUFXO0lBQ1gsaUJBQWlCO0lBQ2pCLDhCQUE4QjtJQUM5QixzQkFBc0I7QUFDMUIiLCJmaWxlIjoic3JjL2FwcC93ZWxjb21lL3dlbGNvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgxIHtcbiAgICBjb2xvcjogdmFyKC0teWVsbG93LWNvbG9yKTtcbiAgICBmb250LXNpemU6IDYwcHg7XG4gICAgZm9udC1mYW1pbHk6IHZhcigtLXNlY29uZGFyeS1mb250KTtcbiAgICBsaW5lLWhlaWdodDogMC43ZW07XG59XG5cbmg1IHtcbiAgICBjb2xvcjogdmFyKC0tYmlzY3VpdC1jb2xvcik7XG4gICAgZm9udC1mYW1pbHk6IHZhcigtLXNlY29uZGFyeS1mb250KTtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjUwcHgpIHtcbiAgICBoMSB7XG4gICAgICAgIGZvbnQtc2l6ZTogOTBweDtcbiAgICB9XG59XG5cbi5kaXZpZGVyIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICB3aWR0aDogMTAwJTtcbiAgICB0b3A6IDEwMiU7XG4gICAgLW1zLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgtMTAyJSk7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0xMDIlKTtcbn1cblxuLmNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIHBhZGRpbmc6IDEwdm1pbjtcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xufVxuXG4uY29udGFpbmVyIC5jYXJkIHtcbiAgICBmbGV4OiAxO1xuICAgIHRyYW5zaXRpb246IGFsbCAxcyBlYXNlLWluLW91dDtcbiAgICBoZWlnaHQ6IDcwdm1pbjtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi5jb250YWluZXIgLmNhcmQgLmNhcmRfX2hlYWQge1xuICAgIGNvbG9yOiB2YXIoLS10ZXh0LWNvbG9yKTtcbiAgICBiYWNrZ3JvdW5kOiB2YXIoLS15ZWxsb3ctY29sb3IpO1xuICAgIHBhZGRpbmc6IDAuNWVtO1xuICAgIHRyYW5zZm9ybTogcm90YXRlKC05MGRlZyk7XG4gICAgdHJhbnNmb3JtLW9yaWdpbjogMCUgMCU7XG4gICAgdHJhbnNpdGlvbjogYWxsIDAuNXMgZWFzZS1pbi1vdXQ7XG4gICAgbWluLXdpZHRoOiAxMDAlO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgYm90dG9tOiAwO1xuICAgIGxlZnQ6IDA7XG4gICAgZm9udC1zaXplOiAxZW07XG4gICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcbn1cblxuLmNvbnRhaW5lciAuY2FyZDpob3ZlciB7XG4gICAgZmxleC1ncm93OiAxMDtcbn1cblxuLmNvbnRhaW5lciAuY2FyZDpob3ZlciBpbWcge1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDApO1xufVxuXG4uY29udGFpbmVyIC5jYXJkOmhvdmVyIC5jYXJkX19oZWFkIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgdG9wOiBjYWxjKDEwMCUgLSAyZW0pO1xuICAgIGNvbG9yOiB2YXIoLS10ZXh0LWNvbG9yKTtcbiAgICBiYWNrZ3JvdW5kOiB2YXIoLS15ZWxsb3ctY29sb3IpO1xuICAgIGZvbnQtc2l6ZTogMmVtO1xuICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpIHNrZXcoLTVkZWcpO1xufVxuXG4uY29udGFpbmVyIC5jYXJkIGltZyB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiA5NiU7XG4gICAgb2JqZWN0LWZpdDogY292ZXI7XG4gICAgdHJhbnNpdGlvbjogYWxsIDFzIGVhc2UtaW4tb3V0O1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDgwJSk7XG59Il19 */"] });
+    } }, styles: ["h1[_ngcontent-%COMP%] {\n    color: var(--yellow-color);\n    font-size: 60px;\n    font-family: var(--secondary-font);\n    line-height: 0.7em;\n}\n\nh5[_ngcontent-%COMP%] {\n    color: var(--biscuit-color);\n    font-family: var(--secondary-font);\n}\n\n@media screen and (min-width: 650px) {\n    h1[_ngcontent-%COMP%] {\n        font-size: 90px;\n    }\n}\n\n.divider[_ngcontent-%COMP%] {\n    position: absolute;\n    overflow: hidden;\n    width: 100%;\n    top: 100%;\n    transform: translateY(-100%);\n}\n\n.galeria[_ngcontent-%COMP%] {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 10vmin;\n    overflow: hidden;\n}\n\n.galeria[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n    background-color: transparent;\n    border: none;\n    flex: 1;\n    transition: all 1s ease-in-out;\n    height: 70vmin;\n    position: relative;\n}\n\n.galeria[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   .card__head[_ngcontent-%COMP%] {\n    color: var(--text-color);\n    background: var(--yellow-color);\n    padding: 0.5em;\n    transform: rotate(-90deg);\n    transform-origin: 0% 0%;\n    transition: all 0.5s ease-in-out;\n    min-width: 100%;\n    text-align: center;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    font-size: 1em;\n    white-space: nowrap;\n}\n\n.galeria[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]:hover {\n    flex-grow: 10;\n}\n\n.galeria[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]:hover   img[_ngcontent-%COMP%] {\n    filter: grayscale(0);\n}\n\n.galeria[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]:hover   .card__head[_ngcontent-%COMP%] {\n    text-align: center;\n    top: calc(100% - 2em);\n    color: var(--text-color);\n    background: var(--yellow-color);\n    font-size: 2em;\n    transform: rotate(0deg) skew(-5deg);\n}\n\n.galeria[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 100%;\n    height: 96%;\n    object-fit: cover;\n    transition: all 1s ease-in-out;\n    filter: grayscale(80%);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2VsY29tZS93ZWxjb21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSwwQkFBMEI7SUFDMUIsZUFBZTtJQUNmLGtDQUFrQztJQUNsQyxrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSwyQkFBMkI7SUFDM0Isa0NBQWtDO0FBQ3RDOztBQUVBO0lBQ0k7UUFDSSxlQUFlO0lBQ25CO0FBQ0o7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZ0JBQWdCO0lBQ2hCLFdBQVc7SUFDWCxTQUFTO0lBRVQsNEJBQTRCO0FBQ2hDOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHVCQUF1QjtJQUN2QixtQkFBbUI7SUFDbkIsZUFBZTtJQUNmLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLDZCQUE2QjtJQUM3QixZQUFZO0lBQ1osT0FBTztJQUNQLDhCQUE4QjtJQUM5QixjQUFjO0lBQ2Qsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksd0JBQXdCO0lBQ3hCLCtCQUErQjtJQUMvQixjQUFjO0lBQ2QseUJBQXlCO0lBQ3pCLHVCQUF1QjtJQUN2QixnQ0FBZ0M7SUFDaEMsZUFBZTtJQUNmLGtCQUFrQjtJQUNsQixrQkFBa0I7SUFDbEIsU0FBUztJQUNULE9BQU87SUFDUCxjQUFjO0lBQ2QsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksYUFBYTtBQUNqQjs7QUFFQTtJQUNJLG9CQUFvQjtBQUN4Qjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsd0JBQXdCO0lBQ3hCLCtCQUErQjtJQUMvQixjQUFjO0lBQ2QsbUNBQW1DO0FBQ3ZDOztBQUVBO0lBQ0ksV0FBVztJQUNYLFdBQVc7SUFDWCxpQkFBaUI7SUFDakIsOEJBQThCO0lBQzlCLHNCQUFzQjtBQUMxQiIsImZpbGUiOiJzcmMvYXBwL3dlbGNvbWUvd2VsY29tZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDEge1xuICAgIGNvbG9yOiB2YXIoLS15ZWxsb3ctY29sb3IpO1xuICAgIGZvbnQtc2l6ZTogNjBweDtcbiAgICBmb250LWZhbWlseTogdmFyKC0tc2Vjb25kYXJ5LWZvbnQpO1xuICAgIGxpbmUtaGVpZ2h0OiAwLjdlbTtcbn1cblxuaDUge1xuICAgIGNvbG9yOiB2YXIoLS1iaXNjdWl0LWNvbG9yKTtcbiAgICBmb250LWZhbWlseTogdmFyKC0tc2Vjb25kYXJ5LWZvbnQpO1xufVxuXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA2NTBweCkge1xuICAgIGgxIHtcbiAgICAgICAgZm9udC1zaXplOiA5MHB4O1xuICAgIH1cbn1cblxuLmRpdmlkZXIge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHRvcDogMTAwJTtcbiAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0xMDAlKTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTEwMCUpO1xufVxuXG4uZ2FsZXJpYSB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIHBhZGRpbmc6IDEwdm1pbjtcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xufVxuXG4uZ2FsZXJpYSAuY2FyZCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gICAgYm9yZGVyOiBub25lO1xuICAgIGZsZXg6IDE7XG4gICAgdHJhbnNpdGlvbjogYWxsIDFzIGVhc2UtaW4tb3V0O1xuICAgIGhlaWdodDogNzB2bWluO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLmdhbGVyaWEgLmNhcmQgLmNhcmRfX2hlYWQge1xuICAgIGNvbG9yOiB2YXIoLS10ZXh0LWNvbG9yKTtcbiAgICBiYWNrZ3JvdW5kOiB2YXIoLS15ZWxsb3ctY29sb3IpO1xuICAgIHBhZGRpbmc6IDAuNWVtO1xuICAgIHRyYW5zZm9ybTogcm90YXRlKC05MGRlZyk7XG4gICAgdHJhbnNmb3JtLW9yaWdpbjogMCUgMCU7XG4gICAgdHJhbnNpdGlvbjogYWxsIDAuNXMgZWFzZS1pbi1vdXQ7XG4gICAgbWluLXdpZHRoOiAxMDAlO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgYm90dG9tOiAwO1xuICAgIGxlZnQ6IDA7XG4gICAgZm9udC1zaXplOiAxZW07XG4gICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcbn1cblxuLmdhbGVyaWEgLmNhcmQ6aG92ZXIge1xuICAgIGZsZXgtZ3JvdzogMTA7XG59XG5cbi5nYWxlcmlhIC5jYXJkOmhvdmVyIGltZyB7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoMCk7XG59XG5cbi5nYWxlcmlhIC5jYXJkOmhvdmVyIC5jYXJkX19oZWFkIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgdG9wOiBjYWxjKDEwMCUgLSAyZW0pO1xuICAgIGNvbG9yOiB2YXIoLS10ZXh0LWNvbG9yKTtcbiAgICBiYWNrZ3JvdW5kOiB2YXIoLS15ZWxsb3ctY29sb3IpO1xuICAgIGZvbnQtc2l6ZTogMmVtO1xuICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpIHNrZXcoLTVkZWcpO1xufVxuXG4uZ2FsZXJpYSAuY2FyZCBpbWcge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogOTYlO1xuICAgIG9iamVjdC1maXQ6IGNvdmVyO1xuICAgIHRyYW5zaXRpb246IGFsbCAxcyBlYXNlLWluLW91dDtcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSg4MCUpO1xufVxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](WelcomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{

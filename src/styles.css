@@ -64,6 +64,20 @@ h6 {
   text-transform: uppercase;
 }
 
+.content {
+  padding: 4em;
+}
+
+.img-card {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .center-x {
   position: absolute;
   width: max-content;

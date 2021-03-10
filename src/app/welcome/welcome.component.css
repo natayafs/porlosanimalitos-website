@@ -20,12 +20,12 @@ h5 {
     position: absolute;
     overflow: hidden;
     width: 100%;
-    top: 102%;
-    -ms-transform: translateY(-102%);
-    transform: translateY(-102%);
+    top: 100%;
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
 }
 
-.container {
+.galeria {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,14 +33,16 @@ h5 {
     overflow: hidden;
 }
 
-.container .card {
+.galeria .card {
+    background-color: transparent;
+    border: none;
     flex: 1;
     transition: all 1s ease-in-out;
     height: 70vmin;
     position: relative;
 }
 
-.container .card .card__head {
+.galeria .card .card__head {
     color: var(--text-color);
     background: var(--yellow-color);
     padding: 0.5em;
@@ -56,15 +58,15 @@ h5 {
     white-space: nowrap;
 }
 
-.container .card:hover {
+.galeria .card:hover {
     flex-grow: 10;
 }
 
-.container .card:hover img {
+.galeria .card:hover img {
     filter: grayscale(0);
 }
 
-.container .card:hover .card__head {
+.galeria .card:hover .card__head {
     text-align: center;
     top: calc(100% - 2em);
     color: var(--text-color);
@@ -73,7 +75,7 @@ h5 {
     transform: rotate(0deg) skew(-5deg);
 }
 
-.container .card img {
+.galeria .card img {
     width: 100%;
     height: 96%;
     object-fit: cover;

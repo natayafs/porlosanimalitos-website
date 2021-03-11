@@ -1,37 +1,40 @@
 * {
-    background-color: var(--text-color);
+  background-color: var(--text-color);
 }
 
 h1 {
-    color: var(--purple-color);
-    font-size: 60px;
-    font-family: var(--primary-font);
-    line-height: 0.7em;
+  color: var(--purple-color);
+  font-size: 60px;
+  font-family: var(--primary-font);
+  line-height: 0.7em;
 }
 
 h5 {
-    color: var(--text-color);
-    font-family: var(--secondary-font);
+  color: var(--text-color);
+  font-family: var(--secondary-font);
 }
 
-a, a:active, a:hover {
-    font-size: 20px;
+a,
+a:active,
+a:hover {
+  font-size: 20px;
 }
 
-a:active, a:hover {
-    color: var(--yellow-color);
+a:active,
+a:hover {
+  color: var(--yellow-color);
 }
 
 .center {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-  
+
 @media (min-width: 700px) {
-    h1 {
-        font-size: 90px;
-    }
+  h1 {
+    font-size: 90px;
+  }
 }

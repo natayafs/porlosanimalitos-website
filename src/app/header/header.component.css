@@ -1,25 +1,26 @@
 * {
-    color: var(--biscuit-color);
-    font-family: var(--primary-font);
+  color: var(--biscuit-color);
+  font-family: var(--primary-font);
 }
 
 header {
   width: 100%;
-  height: 2.5em;
-  padding: 0.5em;
+  height: 4em;
+  padding: 1em;
   background-color: var(--purple-color);
 }
 
 a {
-    padding: 0em 0.3em 0em 0.3em;
+  padding: 0em 0.3em 0em 0.3em;
 }
 
-a:active, a:hover {
-    color: var(--yellow-color);
+a:active,
+a:hover {
+  color: var(--secondary-color);
 }
 
 @media (min-width: 768px) {
-    * {
-        font-size: var(--size-header);
-    }
+  * {
+    font-size: var(--size-header);
+  }
 }

@@ -13,6 +13,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { AdopcionesComponent } from './adopciones/adopciones.component';
 import { CastracionesComponent } from './castraciones/castraciones.component';
 import { PlansanitarioComponent } from './plansanitario/plansanitario.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { PlansanitarioComponent } from './plansanitario/plansanitario.component'
     AdopcionesComponent,
     CastracionesComponent,
     PlansanitarioComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
